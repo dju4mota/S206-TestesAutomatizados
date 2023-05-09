@@ -31,12 +31,21 @@ describe('Criando cenário de testes para o site globalsqa',()=> {
   it('Caso de teste: Realizando login com sucesso', ()=> {
    
     let info = criarUsuario()
-    cy.get('#username').type(info[0])
-    cy.get('#password').type(info[1])
-    cy.get('.btn-primary').click()
+    cy.login(info[0], info[1])
 
     cy.get('h1.ng-binding').should('contain.text',info[0])
     cy.get('div.ng-scope > :nth-child(2)').should('contain.text',"You're logged in!!")
+  })
+
+  it('Caso de teste: Deletar usuário sucesso', ()=> {
+   
+    let info = criarUsuario() 
+    cy.login(info[0], info[1])
+    cy.get('.ng-binding > a').click()
+    cy.get('.btn').click()
+    cy.login(info[0], info[1])
+    cy.get('.ng-binding').should('have.text', 'Username or password is incorrect')
+   
   })
 
   it('Caso de teste: Realizando login com falha', ()=> {
