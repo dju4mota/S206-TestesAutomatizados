@@ -1,0 +1,42 @@
+17:09:08.549 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:09:09.133 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:09:10.418 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+Given "https://pokeapi.co/api/v2/pokemon/ditto"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/ditto"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+17:09:11.187 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature
+17:09:27.517 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:09:27.887 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684181367883
+17:09:27.917 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+17:09:29.024 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+Given "https://pokeapi.co/api/v2/pokemon/12412421"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/12412421"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+17:09:29.750 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature
+17:10:14.261 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:10:14.631 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684181414624
+17:10:14.660 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+17:10:15.641 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+Given "https://pokeapi.co/api/v2/pokemon/12412421"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/12412421"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+17:10:16.286 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature
+17:10:43.050 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:10:43.474 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684181443465
+17:10:43.509 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:10:44.547 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+Given "https://pokeapi.co/api/v2/pokemon/ditto"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/ditto"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+17:10:45.245 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature
+17:10:47.229 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+17:10:47.570 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684181447567
+17:10:48.571 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+Given "https://pokeapi.co/api/v2/pokemon/ditto"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/ditto"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:4
+17:10:48.587 [main]  ERROR com.intuit.karate - aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+Given "https://pokeapi.co/api/v2/pokemon/12412421"
+no step-definition method match found for: "https://pokeapi.co/api/v2/pokemon/12412421"
+aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature:9
+17:10:49.304 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) aula_inatel/src/test/java/aula_inatel/pokemon/pk.feature
